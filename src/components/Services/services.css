@@ -1,0 +1,16 @@
+section{
+    background-color: var(--bg-gray);
+}
+section .services-area{
+    padding: 80px 0; 
+}
+section .services-area .services-header div{
+    /* font-size: 24px; */
+    color: rgba(0, 0, 0, 0.7);
+    /* font-weight: 500; */
+}
+
+section .services-area .services-boxes{
+    max-width: 800px;
+    margin-left: auto;
+}

@@ -1,0 +1,27 @@
+.header-area{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--bg-light);
+    position: relative;
+}
+/* 
+.breadcrumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+} */
+.breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .2rem;
+    content: "/ ";
+}
+.breadcrumb li{
+    cursor: pointer;
+}
+.breadcrumb li:last-child{
+    color: var(--text-dark);
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: underline;
+}

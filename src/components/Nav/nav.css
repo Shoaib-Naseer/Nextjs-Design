@@ -1,0 +1,31 @@
+.nav-area{
+   padding: 46px 0;
+    background-color: var(--bg-light);
+    position: relative;
+}
+.nav-area .nav-items{
+    max-width: 682px;
+    height: 38px;
+}
+
+.nav-area .nav-items li:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.active{
+    font-weight:bold;
+    position: relative;
+}
+.active::after{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}

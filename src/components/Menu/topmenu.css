@@ -1,0 +1,64 @@
+.top-menu{
+    max-width: 904px;
+    height: 94px;
+    background-color: var(--bg-light);
+    box-shadow: 0px 1px 21px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    padding: 24px 48px 24px 48px;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top: 112px;
+    margin-left: auto; 
+    margin-right: auto;
+    z-index: 3;
+}
+
+
+.top-menu .menu-items{
+    width: 125px;
+    height: 43px;
+    position: relative;
+}
+
+.menu-items:not(:last-child):after{
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: -48px;
+    width: 1.5px;
+    height: 35px;
+    background-color: #8989894D;
+
+}
+.menu-items .form-select{
+    color: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+}
+.menu-items .form-select option{
+}
+
+.menu-items .form-select:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+/* .firstChild:after, .secondChild:after{
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: -48px;
+    width: 1.5px;
+    height: 35px;
+    background-color: #8989894D;
+    
+}    */
+input[type='date']{
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
