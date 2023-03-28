@@ -1,0 +1,32 @@
+.slider-outer{
+    height: 508px;
+    width: 380px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.slider-text{
+    position: relative;
+    transform: translateY(6%);
+    max-width: 332px;   
+    transition: all 1s ease;
+}
+/* 
+.slider-content{
+    overflow: hidden;
+    background: #000;
+    width: 332px;
+} */
+.slider-image{
+    max-width: 332px;
+    height: 435px;
+}
+.slider-image img{
+    object-fit: cover;
+    border-radius: 166px 166px 0px 0px;
+} 
+.slider-container:hover > .slider-text{
+    cursor: pointer;
+    transform: translateY(6%);
+
+}

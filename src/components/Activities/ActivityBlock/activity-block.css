@@ -1,0 +1,46 @@
+.activity-block{
+    height: 490px;
+}
+.p-absolute{
+    position: relative;
+    top: -15px;
+    width: 60%;
+}
+.p-absolute button{
+    background: none;
+    border: none;
+    position: absolute;
+    right: -15px;
+    bottom: -21px;
+    font-weight: bold;
+}
+
+.activity-text{
+    position: relative;
+    width: 50%;
+}
+.activity-image{
+    width: 50%;
+}
+.activity-image img{
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+}
+
+
+
+.activity-text::before{
+    content: " ";
+    width: 165%;
+    height: 1px;
+    top: -42px;
+    background-color: #000;
+    position: absolute;
+}
+
+.activity-box-heading{
+    width: 60%;
+
+} 

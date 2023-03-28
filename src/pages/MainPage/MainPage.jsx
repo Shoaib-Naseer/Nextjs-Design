@@ -1,4 +1,6 @@
 import React from "react";
+import AboutHotel from "../../components/About/AboutHotel";
+import Activities from "../../components/Activities/Activities";
 import Header from "../../components/Header/Header";
 import Hero from "../../components/Hero/Hero";
 import Nav from "../../components/Nav/Nav";
@@ -13,6 +15,8 @@ const MainPage=()=>{
             <Nav />
             <Services />
             <Rooms />
+            <AboutHotel />
+            <Activities />
         </>
     )
 }

@@ -1,0 +1,10 @@
+.about-section{
+    padding: 80px 0px;
+}
+.about-img{
+    max-width: 100%;
+}
+.about-img img{
+    max-width: 100%;
+    height: auto;
+}

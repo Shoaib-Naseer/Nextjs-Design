@@ -1,4 +1,4 @@
-section{
+.services-section{
     background-color: var(--bg-gray);
 }
 section .services-area{
@@ -12,5 +12,5 @@ section .services-area .services-header div{
 
 section .services-area .services-boxes{
     max-width: 800px;
-    margin-left: auto;
+    margin: 5px 1px 0px auto;
 }
