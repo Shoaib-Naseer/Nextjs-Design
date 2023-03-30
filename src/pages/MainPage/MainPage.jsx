@@ -11,11 +11,11 @@ import Services from "../../components/Services/Services";
 import './MainPage.css'
 import Contact from "../../components/Contact/Contact";
 const MainPage=()=>{
-    // const location = {
-    //     address: '1600 Amphitheatre Parkway, Mountain View, california.',
-    //     lat: 37.42216,
-    //     lng: -122.08427,
-    //   }
+    const location = {
+        address: '1600 Amphitheatre Parkway, Mountain View, california.',
+        lat: 37.42216,
+        lng: -122.08427,
+      }
     return(
         <>
             <Header />
@@ -26,7 +26,7 @@ const MainPage=()=>{
             <AboutHotel />
             <Activities />
             <Contact />
-            {/* <Map location={location}/> */}
+            <Map location={location}/>
             <Footer />
 
         </>

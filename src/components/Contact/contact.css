@@ -10,6 +10,17 @@
 }
 .contact-above{
     width: 480px;
+    position: relative;
+}
+
+.contact-above h1::before{
+    content: " ";
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    left: -1%;
+    top: 24%;
+    background: black;
 }
 
 .input-container input{

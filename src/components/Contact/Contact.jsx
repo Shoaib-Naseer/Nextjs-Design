@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="promotion-text-container">
           <div className="contact-above py-4">
             <h1 className="fw-bold text-dark mb-15 text-uppercase">
-              - Lets take our Relationship to the next level
+            &nbsp;  &nbsp;Lets take our Relationship to the next level
             </h1>
           </div>
 

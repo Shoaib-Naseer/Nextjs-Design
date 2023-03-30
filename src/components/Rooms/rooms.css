@@ -94,6 +94,6 @@ section .rooms-area .rooms-header{
 
   .slider-container{
     width: 100%;
-    margin-left: 60px;
+    padding-left: 60px;
   }
   
