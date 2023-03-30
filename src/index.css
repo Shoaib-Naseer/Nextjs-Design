@@ -43,6 +43,10 @@ ul{
   padding: 0;
 }
 
+button{
+  background: none;
+    border: none;
+}
 
 
 
@@ -99,6 +103,9 @@ ul{
   font-size: 4.6875em;
 }
 
+.text-right{
+  text-align: right;
+}
 /* .text-2xl{
   font-size: 5em;
 } */

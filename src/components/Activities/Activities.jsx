@@ -31,7 +31,7 @@ const Activities = () => {
     <section className='activities-section'>
       <div className="container mx-auto">
       <h1 className="fw-bold text-dark mt-5 mb-3 text-center">Activities Nearby</h1>
-      <div className="row mt-2 g-3">
+      <div className="row mt-2 g-4    ">
         {activityData.map((activity,index)=>(
           <div className="col-6" key={index}>
             <ActivityBlock activity={activity} />

@@ -1,0 +1,35 @@
+.footer-content p{
+    font-size: 18px;
+    line-height: 29px;
+    margin: 20px 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+.footer-content div{
+    width: 60%;
+}
+.footer-copyright{
+    font-size: 14px;
+    color: #242424;
+    width: 114px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 3em;
+}
+.item{
+    /* margin-top: 60px */
+    margin-right: 60px;
+}
+.item ul li{
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.footer-nav-content{
+    width: 60%;
+    float: right;
+    margin-top:70px;
+}
+.footer-nav-content p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}

@@ -127,7 +127,7 @@ const Rooms = () => {
             {/* Slider takes array of object as input */}
             <MultiCarousel {...settings} ref={carouselRef}>
               {items.map((item, index) => (
-                <ImageSlider item={item} index={index} />
+                <ImageSlider item={item} key={index} />
               ))}
             </MultiCarousel>
           </div>
